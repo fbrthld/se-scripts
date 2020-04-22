@@ -54,6 +54,8 @@ namespace IngameScript
             // It's recommended to set Runtime.UpdateFrequency 
             // here, which will allow your script to run itself without a 
             // timer block.
+
+            Runtime.UpdateFrequency = UpdateFrequency.Update10;
         }
 
         public void Save()
@@ -77,7 +79,6 @@ namespace IngameScript
             // 
             // The method itself is required, but the arguments above
             // can be removed if not needed.
-
         }
     }
 }
